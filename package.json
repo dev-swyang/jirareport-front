@@ -1,0 +1,45 @@
+{
+  "name": "jira-report",
+  "version": "0.1.0",
+  "private": true,
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "dotenv": "^8.6.0",
+    "fixed-data-table-2": "^1.1.3",
+    "ip": "^1.1.5",
+    "moment": "^2.29.1",
+    "rc-table": "^7.14.0",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.6.1",
+    "react-data-table-component": "^6.11.7",
+    "react-dom": "^17.0.1",
+    "react-google-charts": "^3.0.15",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "styled-components": "^5.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start .env",
+    "build": "react-scripts build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
